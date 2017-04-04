@@ -7,7 +7,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;		
 public class NewTest {		
-	    private WebDriver driver;		
+	   /* private WebDriver driver;		
 		@Test				
 		public void testEasy() {	
 			driver.get("http://google.com");  
@@ -30,5 +30,5 @@ public class NewTest {
 		@AfterTest
 		public void afterTest() {
 			driver.quit();			
-		}		
+		}	*/	
 }

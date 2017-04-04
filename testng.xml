@@ -8,7 +8,7 @@
 </listeners>
   <test name="Test">
     <classes>
-      <class name="com.my.TestNGTutorial.NewTest"/>
+      <class name="com.my.TestNGTutorial.HelloTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -21,7 +21,7 @@ import jxl.Workbook;
 import jxl.read.biff.BiffException;
 
 public class ReadExcelDataProvider {
-	public WebDriver driver;
+	/*public WebDriver driver;
 	public WebDriverWait wait;
 	String appURL = "https://www.linkedin.com/";
 	
@@ -44,7 +44,7 @@ public class ReadExcelDataProvider {
 		
 		System.out.println("userName "+userName +"passws" +password + "    "+tes);
 		
-		/*driver.navigate().to(appURL);
+		driver.navigate().to(appURL);
 		driver.findElement(byEmail).sendKeys(userName);
 		driver.findElement(byPassword).sendKeys(password);
 		//wait for element to be visible and perform click
@@ -55,7 +55,7 @@ public class ReadExcelDataProvider {
 		wait.until(ExpectedConditions.presenceOfElementLocated(byError));
 		String actualErrorDisplayed = driver.findElement(byError).getText();
 		String requiredErrorMessage = "Please correct the marked field(s) below.";
-		Assert.assertEquals(requiredErrorMessage, actualErrorDisplayed);*/
+		Assert.assertEquals(requiredErrorMessage, actualErrorDisplayed);
 		
 	}
 	
@@ -65,11 +65,11 @@ public class ReadExcelDataProvider {
 		return arrayObject;
 	}
 
-	/**
+	*//**
 	 * @param File Name
 	 * @param Sheet Name
 	 * @return
-	 */
+	 *//*
 	public String[][] getExcelData(String fileName, String sheetName) {
 		String[][] arrayExcelData = null;
 		try {
@@ -103,5 +103,5 @@ public class ReadExcelDataProvider {
 	@Test
 	public void tearDown() {
 		driver.quit();
-	}
+	}*/
 }
