@@ -1,16 +1,16 @@
 package com.my.TestNGTutorial;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.AssertJUnit;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;		
 public class NewTest {		
-	    private WebDriver driver;		
-		@Test				
+	    @Test				
 		public void testEasy() {	
 			 System.out.println("beforeTest run");	
+			 for(int i=0;i<10;i++){
+				 System.out.println( "---------> sandy" + i);
+			 }
 		}
 		
 		@Test				
